@@ -58,6 +58,82 @@
   version = "v1.13.50"
 
 [[projects]]
+  name = "github.com/coredns/coredns"
+  packages = [
+    "core",
+    "core/dnsserver",
+    "core/plugin",
+    "coremain",
+    "pb",
+    "plugin",
+    "plugin/auto",
+    "plugin/autopath",
+    "plugin/bind",
+    "plugin/cache",
+    "plugin/cache/freq",
+    "plugin/chaos",
+    "plugin/debug",
+    "plugin/deprecated",
+    "plugin/dnssec",
+    "plugin/dnstap",
+    "plugin/dnstap/dnstapio",
+    "plugin/dnstap/msg",
+    "plugin/dnstap/taprw",
+    "plugin/dnstap/test",
+    "plugin/erratic",
+    "plugin/errors",
+    "plugin/etcd",
+    "plugin/etcd/msg",
+    "plugin/federation",
+    "plugin/file",
+    "plugin/file/tree",
+    "plugin/forward",
+    "plugin/health",
+    "plugin/hosts",
+    "plugin/kubernetes",
+    "plugin/loadbalance",
+    "plugin/log",
+    "plugin/metrics",
+    "plugin/metrics/test",
+    "plugin/metrics/vars",
+    "plugin/nsid",
+    "plugin/pkg/cache",
+    "plugin/pkg/dnstest",
+    "plugin/pkg/dnsutil",
+    "plugin/pkg/edns",
+    "plugin/pkg/fall",
+    "plugin/pkg/fuzz",
+    "plugin/pkg/healthcheck",
+    "plugin/pkg/log",
+    "plugin/pkg/nonwriter",
+    "plugin/pkg/parse",
+    "plugin/pkg/rcode",
+    "plugin/pkg/replacer",
+    "plugin/pkg/response",
+    "plugin/pkg/singleflight",
+    "plugin/pkg/tls",
+    "plugin/pkg/trace",
+    "plugin/pkg/uniq",
+    "plugin/pkg/up",
+    "plugin/pkg/upstream",
+    "plugin/pprof",
+    "plugin/proxy",
+    "plugin/reload",
+    "plugin/rewrite",
+    "plugin/root",
+    "plugin/route53",
+    "plugin/secondary",
+    "plugin/template",
+    "plugin/test",
+    "plugin/tls",
+    "plugin/trace",
+    "plugin/whoami",
+    "request"
+  ]
+  revision = "f78f30231df90da6184d5f811ecf9c06b0160c2b"
+  version = "v1.1.4"
+
+[[projects]]
   name = "github.com/coreos/etcd"
   packages = [
     "client",
@@ -560,6 +636,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "dbbdcbcd4c0e11f040230e43a145f113ed7e67ff2c52b2a5830e117c16a23630"
+  inputs-digest = "c3764dd8b3729630d8b4b031b467d81599cdba686cc2de742c1803b300902f9b"
   solver-name = "gps-cdcl"
   solver-version = 1
